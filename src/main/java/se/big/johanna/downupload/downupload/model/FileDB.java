@@ -1,7 +1,6 @@
 package se.big.johanna.downupload.downupload.model;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
@@ -9,7 +8,6 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
 @RequiredArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
 @Entity
